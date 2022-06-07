@@ -8,8 +8,6 @@ export const MiComponente = () => {
         web: "victoroblesweb.com"
     }
 
-    console.log(usuario)
-
   return (
         <div className='mi-componente'>
             <h2>Componente creado</h2>
