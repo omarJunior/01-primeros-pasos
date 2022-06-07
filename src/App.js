@@ -1,4 +1,4 @@
-import './App.css';
+import { EventosComponentes } from './EventosComponentes';
 import { MiComponente } from './MiComponente';
 import { SegundoComponente } from './SegundoComponente';
 import { TercerComponente } from './TercerComponente';
@@ -24,6 +24,8 @@ function App() {
       <hr />
       <TercerComponente ficha={ficha_medica}/>
       </div>
+      <hr />
+      <EventosComponentes />
     </div>
   );
 }
